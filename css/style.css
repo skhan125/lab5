@@ -1,47 +1,50 @@
-body { 
-    /* Text body */
-    background-color: DarkSlateGrey;
-    background-image: url("../planets/background.jpg");
-	background-size: 100% 100%;
-    color: lime;
-    font-family: "American Typewriter";
-   }
+body {
+  /* Text body */
+  background-color: DarkSlateGrey;
+  background-image: url("../planets/background.jpg");
+  background-size: 100% 100%;
+  color: lime;
+  font-family: "American Typewriter";
+}
 
 h1 {
-    font-family: "Dancing Script";
-    font-size: 80px;
-    color: aqua;
-    text-align: center;
-   }
+  font-family: "Dancing Script";
+  font-size: 80px;
+  color: aqua;
+  text-align: center;
+}
 
 /* TABLE STYLING */
 table {
-    font-family: Jost, sans-serif;
-    font-size: 20px;
-    border-spacing: 25px;
-    table-layout: fixed;
-    width: 100%;
-    max-width: 800px;
-    color: lime;
-    position: relative;
-    padding: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    }
-.planets { /* Planet images */
-    height: 60px;
-    position: relative;  
-    }
-	
-th{
+  font-family: Jost, sans-serif;
+  font-size: 20px;
+  border-spacing: 25px;
+  table-layout: fixed;
+  width: 100%;
+  max-width: 800px;
+  color: lime;
+  position: relative;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.planets {
+  /* Planet images */
+  height: 60px;
+  position: relative;
+}
+
+th {
   text-align: center;
   table-layout: fixed;
   height: 60px;
   border-radius: 4px;
-  }
-td{
+}
+
+td {
   text-align: center;
   table-layout: fixed;
   height: 60px;
   border-radius: 4px;
-  }
+}
